@@ -56,7 +56,7 @@ class jancok_dorker:
 
                     if all(not xxx in xurl[2] for xxx in [".bing.", ".google.", ".microsoft."]):
 
-                        Thread(target=self.check_site, args=(x,)).start()
+                        Thread(target=self.check_site, args=(x, )).start()
                         delay(0.1)
 
         except:
