@@ -21,6 +21,7 @@ from datetime import datetime
 from os.path import isfile
 from os.path import isdir
 from os import mkdir
+from random import randint
 
 class jancok_dorker:
 
